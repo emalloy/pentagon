@@ -3,7 +3,7 @@ include *.txt
 include *.py
 
 
-recursive-include lib/pentagon/components *
+recursive-include lib/pentagon *
 
 global-exclude *.pyc
 global-exclude *.so

@@ -66,7 +66,7 @@ setup(name='pentagon',
       ],
       package_dir={'': 'lib'},
       packages=find_packages('lib'),
-      package_data={'pentagon.components': find_files("lib/pentagon/components") },
+      package_data={'pentagon.components': find_files("lib/pentagon/" },
       include_package_data=True,
       classifiers=[
           'Development Status :: 5 - Production/Stable',
